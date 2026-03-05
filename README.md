@@ -40,6 +40,8 @@ Once a valid payment is confirmed:
 * **High Availability**: Features an automatic failover mechanism that rotates between multiple public nodes if the primary connection is interrupted.
 * **SQL Integration**: Optimized for MSSQL using `pyodbc`, handling connection strings and encrypted connections securely.
 
+![watcher](watcher.png)
+
 ```pythob
 
 import asyncio
